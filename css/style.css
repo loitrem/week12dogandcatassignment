@@ -1,0 +1,181 @@
+body {
+    margin: 25px;
+    background-color: rgb(234, 241, 255);
+}
+
+.mainWrapper {
+    width: 100%;
+}
+
+.navWrapper{
+    width: 80%;
+    height: 150px;
+    background-color: rgb(28, 28, 28);
+    border: solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pageTitle {
+    width: 100%;
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgb(28, 28, 28);
+}
+
+.navBottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(70, 70, 70);
+    border-top: solid black;
+}
+
+.nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 45px;
+    align-items: end;
+    background-color: rgb(28, 28, 28);
+}
+
+.addAnimalLink{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(219, 231, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.addAnimalLink:hover{
+    color: rgb(156, 189, 255);
+}
+
+.dogModify,.catModify {
+    display: flex;
+}
+
+.dogEditBtn,.dogDeleteBtn,.catEditBtn,.catDeleteBtn {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(28, 28, 28);
+    color: whitesmoke;
+    border: solid black;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dogEditBtn:hover,.dogDeleteBtn:hover,.catEditBtn:hover,.catDeleteBtn:hover {
+    cursor: pointer;
+    background-color: rgb(34, 31, 122);
+}
+
+.dogCell,.catCell{
+    border: 1px solid black;
+    width: 90%;
+    padding: 20px;
+    line-height: 35px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(173, 199, 255);
+    border-radius: 15px;
+}
+
+.animalDisplayWrapper{
+    width: 100%;
+}
+
+.animalDisplay {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black;
+    background-color: rgb(205, 205, 205);
+}
+
+.dogName,.dogAge,.dogBreed,.dogDesc,.catName,.catAge,.catCheckup,.catDesc {
+    display: flex;
+}
+
+.boldText {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.dogTitle,.catTitle{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.form {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border:1px solid black;
+    padding: 10px;
+    background-color: rgb(173, 199, 255);
+    border-radius: 15px;
+}
+
+.inputWrapper {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputTitle {
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inputTag {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.input {
+    font-size: 18px;
+}
+
+.inputSubmit {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(28, 28, 28);
+    color: whitesmoke;
+    border: solid black;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inputSubmit:hover {
+    cursor: pointer;
+    background-color: rgb(34, 31, 122);
+}
+
+.inputCheck {
+    width: 20px;
+    height: 20px;
+}
